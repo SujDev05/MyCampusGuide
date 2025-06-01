@@ -73,7 +73,7 @@ export default function HomePage() {
         <div className="bg-card p-8 md:p-12 rounded-lg shadow-xl flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2">
             <Image
-              src="https://placehold.co/700x450.png"
+              src="/home/user/studio/public/images/home .jpg"
               alt="Beautiful university campus"
               width={700}
               height={450}

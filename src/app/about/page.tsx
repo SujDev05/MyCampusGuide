@@ -15,7 +15,7 @@ export default function AboutPage() {
 
       <section>
         <Image
-          src="https://placehold.co/1200x400.png"
+          src="/home/user/studio/public/images/about.jpeg"
           alt="Diverse group of students on a university campus"
           width={1200}
           height={400}

@@ -56,7 +56,7 @@ export default function ContactPage() {
         </Card>
         <div>
           <Image 
-            src="https://placehold.co/600x450.png" 
+            src="/home/user/studio/public/images/contact us.jpg" 
             alt="Contact illustration" 
             width={600} 
             height={450} 
