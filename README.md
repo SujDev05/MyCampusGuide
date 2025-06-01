@@ -1,3 +1,4 @@
+
 # MyCampusGuide
 
 MyCampusGuide is a Next.js application designed to provide personalized university course suggestions to students based on their academic performance, interests, and career aspirations. It utilizes AI to generate tailored recommendations.
@@ -96,4 +97,3 @@ To check for TypeScript errors:
 ```bash
 npm run typecheck
 ```
-
