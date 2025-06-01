@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White */
+    --foreground: 240 10% 3.9%; /* Dark Blue/Black for contrast on white */
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 226 74% 57%; /* Royal Blue */
+    --primary-foreground: 0 0% 100%; /* White text on Royal Blue */
+
+    --secondary: 240 50% 96.1%; /* Lighter Lavender for secondary elements */
+    --secondary-foreground: 226 74% 57%; /* Royal Blue text on Lighter Lavender */
+
+    --muted: 240 50% 96.1%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 67% 94%; /* Lavender */
+    --accent-foreground: 226 74% 40%; /* Darker Royal Blue for text on Lavender */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 30% 89.8%; /* Lighter border */
+    --input: 240 30% 94.8%; /* Lighter input background */
+    --ring: 226 74% 57%; /* Royal Blue for focus rings */
+
+    --radius: 0.5rem;
+
+    --chart-1: 226 74% 57%;
+    --chart-2: 240 67% 80%;
+    --chart-3: 226 74% 70%;
+    --chart-4: 240 67% 60%;
+    --chart-5: 226 74% 80%;
+    
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 10% 3.9%;
+    --sidebar-primary: 226 74% 57%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 67% 94%;
+    --sidebar-accent-foreground: 226 74% 40%;
+    --sidebar-border: 240 30% 89.8%;
+    --sidebar-ring: 226 74% 57%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%; /* Dark Blue/Black */
+    --foreground: 0 0% 98%; /* White text on Dark Blue/Black */
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 226 74% 67%; /* Lighter Royal Blue for dark mode */
+    --primary-foreground: 240 10% 3.9%; /* Dark text on Lighter Royal Blue */
+
+    --secondary: 240 10% 14.9%; /* Darker Lavender/Grey */
+    --secondary-foreground: 0 0% 98%; /* White text on Darker Lavender/Grey */
+
+    --muted: 240 10% 14.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 20% 20%; /* Darker Lavender for accent */
+    --accent-foreground: 0 0% 98%; /* White text on Darker Lavender */
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 10% 14.9%;
+    --input: 240 10% 14.9%;
+    --ring: 226 74% 67%; /* Lighter Royal Blue for focus rings in dark mode */
+    
+    --chart-1: 226 74% 67%;
+    --chart-2: 240 40% 40%;
+    --chart-3: 226 74% 50%;
+    --chart-4: 240 40% 60%;
+    --chart-5: 226 74% 30%;
+
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 226 74% 67%;
+    --sidebar-primary-foreground: 240 10% 3.9%;
+    --sidebar-accent: 240 20% 20%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 10% 14.9%;
+    --sidebar-ring: 226 74% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    @apply font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
