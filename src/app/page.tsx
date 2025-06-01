@@ -19,7 +19,7 @@ export default function HomePage() {
           </Button>
           <div className="mt-12">
             <Image 
-              src="https://placehold.co/800x400.png" 
+              src="/home/user/studio/public/home .jpg" 
               alt="Students collaborating" 
               width={800} 
               height={400} 
