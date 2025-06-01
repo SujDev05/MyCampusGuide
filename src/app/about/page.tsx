@@ -19,7 +19,7 @@ export default function AboutPage() {
           width={1200}
           height={400}
           className="rounded-lg shadow-xl object-cover w-full"
-          data-ai-hint="university campus"
+          data-ai-hint="Indian university"
         />
       </section>
 

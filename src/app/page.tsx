@@ -24,7 +24,7 @@ export default function HomePage() {
               width={800} 
               height={400} 
               className="rounded-lg mx-auto shadow-xl"
-              data-ai-hint="students collaboration"
+              data-ai-hint="Indian students"
             />
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function HomePage() {
               width={700}
               height={450}
               className="rounded-lg shadow-md object-cover w-full"
-              data-ai-hint="university campus"
+              data-ai-hint="Indian campus"
             />
           </div>
           <div className="md:w-1/2 text-center md:text-left">

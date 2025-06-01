@@ -171,7 +171,7 @@ function HomePage() {
                                 width: 800,
                                 height: 400,
                                 className: "rounded-lg mx-auto shadow-xl",
-                                "data-ai-hint": "students collaboration"
+                                "data-ai-hint": "Indian students"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 21,
@@ -373,7 +373,7 @@ function HomePage() {
                                 width: 700,
                                 height: 450,
                                 className: "rounded-lg shadow-md object-cover w-full",
-                                "data-ai-hint": "university campus"
+                                "data-ai-hint": "Indian campus"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.tsx",
                                 lineNumber: 75,
