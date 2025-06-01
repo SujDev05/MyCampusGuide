@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40481a7bdea4270165629de0b595c6537c35b49855": {
+      "workers": {
+        "app/course-suggester/page": {
+          "moduleId": "[project]/.next-internal/server/app/course-suggester/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/course-suggester/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/course-suggester/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
