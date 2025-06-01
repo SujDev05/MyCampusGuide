@@ -1,8 +1,9 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { CheckCircle, Lightbulb, BarChart } from 'lucide-react';
+import { CheckCircle, Lightbulb, BarChart, Landmark } from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -18,12 +19,12 @@ export default function HomePage() {
           </Button>
           <div className="mt-12">
             <Image 
-              src="https://placehold.co/800x400.png" 
+              src="/home/user/studio/public/home .jpg" 
               alt="Students collaborating" 
               width={800} 
               height={400} 
               className="rounded-lg mx-auto shadow-xl"
-              data-ai-hint="students collaboration"
+              data-ai-hint="Indian students"
             />
           </div>
         </div>
@@ -65,6 +66,31 @@ export default function HomePage() {
               </p>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4">
+        <div className="bg-card p-8 md:p-12 rounded-lg shadow-xl flex flex-col md:flex-row items-center gap-8">
+          <div className="md:w-1/2">
+            <Image
+              src="/home/user/studio/public/images/home .jpg"
+              alt="Beautiful university campus"
+              width={700}
+              height={450}
+              className="rounded-lg shadow-md object-cover w-full"
+              data-ai-hint="Indian campus"
+            />
+          </div>
+          <div className="md:w-1/2 text-center md:text-left">
+            <Landmark className="w-12 h-12 text-primary mb-4 mx-auto md:mx-0" />
+            <h2 className="text-3xl font-bold mb-4 text-primary">Explore Your Future Campus</h2>
+            <p className="text-lg text-foreground/80 mb-6">
+              Visualize yourself in a vibrant learning environment. MyCampusGuide helps you find institutions that not only match your academic profile but also offer a campus experience where you can thrive.
+            </p>
+            <Button variant="outline" asChild>
+              <Link href="/about">Learn More About Universities</Link>
+            </Button>
+          </div>
         </div>
       </section>
 

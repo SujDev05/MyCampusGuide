@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import Image from 'next/image';
@@ -55,7 +56,7 @@ export default function ContactPage() {
         </Card>
         <div>
           <Image 
-            src="https://placehold.co/600x450.png" 
+            src="/home/user/studio/public/images/contact us.jpg" 
             alt="Contact illustration" 
             width={600} 
             height={450} 

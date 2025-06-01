@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Users, Target, Eye } from 'lucide-react';
@@ -14,12 +15,12 @@ export default function AboutPage() {
 
       <section>
         <Image
-          src="https://placehold.co/1200x400.png"
+          src="/home/user/studio/public/images/about.jpeg"
           alt="Diverse group of students on a university campus"
           width={1200}
           height={400}
           className="rounded-lg shadow-xl object-cover w-full"
-          data-ai-hint="university campus"
+          data-ai-hint="Indian university"
         />
       </section>
 
