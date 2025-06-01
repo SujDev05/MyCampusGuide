@@ -15,7 +15,7 @@ Follow these steps to get your development environment set up:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/SujDev05/MyCampusGuide.git
     cd MyCampusGuide
     ```
 
@@ -37,7 +37,7 @@ Follow these steps to get your development environment set up:
     Populate this file with any necessary environment variables. For Genkit and Google AI, you might need API keys or specific configurations. Refer to the Genkit and Google AI documentation for details.
     For example:
     ```
-    GOOGLE_API_KEY=your_google_api_key_here
+    GOOGLE_API_KEY=your_google_api_key_here 
     ```
 
 ## Running the Development Server
